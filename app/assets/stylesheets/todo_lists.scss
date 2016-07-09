@@ -1,3 +1,28 @@
 // Place all the styles related to the todo_lists controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h2 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  align: left;
+  text-align: center;
+  margin: 0 auto;
+}
+
+a:link {
+  color: #0065C3;
+}
+
+a:visited {
+  color: #184B44;
+}
+
+.todo_list_sub_title {
+  margin: 5px 0px 0px 5px;
+  font-style: italic;
+  font-family: 'Arimo';
+  color: #346877;
+}

@@ -1,0 +1,24 @@
+$form-color: #4F8699;
+$text-color: #204b52;
+
+input, textarea {
+  background-color: $form-color;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+label, h1 {
+  color: $text-color;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.new_todo_list {
+  margin: 0 auto;
+  align: left;
+  text-align: center;
+}
